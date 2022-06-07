@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <title>中華民國內政部</title>
+</head>
+
+<body>
+    <div class='container'>
+        <header>
+            <nav class='navbar'>
+                <ul>
+                    <li><a href='#'>回首頁</a></li>
+                    <li><a href='#'>網站導覽</a></li>
+                    <li><a href='#'>司長信箱</a></li>
+                    <li><a href='#'>雙語詞彙</a></li>
+                    <li><a href='#'>常見問答</a></li>
+                </ul>
+                <ul>
+                    <li><a href='#'>English</a></li>
+                    <li><a href='#'>兒童版</a></li>
+                </ul>
+                <ul>
+                    <li onclick='fontsize(1)' id='A'>A</li>
+                    <li onclick='fontsize(2)' id='A'>A</li>
+                    <li onclick='fontsize(3)' id='A'>A</li>
+                </ul>
+            </nav>
+            <div class='headermedia'>
+                <div class='logo'>
+                    <img src='image/logo.png'>
+                </div>
+                <div class='media'>
+                    <div class='search'>
+                        <a href='#'><img src='image/RSS.PNG'></a>
+                        <a href='#'><img src='image/FB.PNG'></a>
+                        <a href='#'><img src='image/YT.PNG'></a>
+                        <a href='#'><img src='image/Flickr.PNG'></a>
+                        <form>
+                            <input type='search' placeholder='經Google技術強化'>
+                            <input type='button' value='進階搜尋'>
+                        </form>
+                    </div>
+                    <nav class='popularserach'>
+                        <p>熱門搜尋＞</p>
+                        <ul>
+                            <a href='#'>
+                                <li>網路申辦服務</li>
+                            </a>
+                            <a href='#'>
+                                <li>身分證掛失</li>
+                            </a>
+                            <a href='#'>
+                                <li>申請歸化國籍</li>
+                            </a>
+                        </ul>
+                    </nav>
+                    <nav class='mainnav'>
+                        <ul>
+                            <li>本司簡介
+                                <ul>
+                                    <li><a href='#'>戶政沿革史</a></li>
+                                    <li><a href='#'>戶政組織</a></li>
+                                    <li><a href='#'>業務職掌</a></li>
+                                    <li><a href='#'>組織學習</a></li>
+                                    <li><a href='#'>辦公室位置</a></li>
+                                    <li><a href='#'>戶政機關通訊錄</a></li>
+                                    <li><a href='#'>戶政機關線上通訊服務</a></li>
+                                    <li><a href='#'>司長信箱</a></li>
+                                    <li><a href='#'>司長信箱處理查詢</a></li>
+                                    <li><a href='#'>本部徵才資訊</a></li>
+                                </ul>
+                            </li>
+                            <li>新聞與公告
+                                <ul>
+                                    <li><a href='#'>最新消息</a></li>
+                                    <li><a href='#'>新聞稿</a></li>
+                                    <li><a href='#'>最新法規公布</a></li>
+                                    <li><a href='#'>影音宣導</a></li>
+                                    <li><a href='#'>本部重大政策</a></li>
+                                    <li><a href='#'>問券調查</a></li>
+                                </ul>
+                            </li>
+                            <li>網路申辦服務
+                                <ul>
+                                    <li><a href='#'>戶政網路申辦服務作業申明</a></li>
+                                    <li><a href='#'>國民身分證</a></li>
+                                    <li><a href='#'>戶籍謄本</a></li>
+                                    <li><a href='#'>國籍申辦</a></li>
+                                    <li><a href='#'>其他申辦</a></li>
+                                    <li><a href='#'>線上申辦戶籍登記</a></li>
+                                    <li><a href='#'>戶役政管家APP服務</a></li>
+                                </ul>
+                            </li>
+                            <li>法規與申辦需知
+                                <ul>
+                                    <li><a href='#'>戶政法規</a></li>
+                                    <li><a href='#'>戶政法規與法規解釋函令</a></li>
+                                    <li><a href='#'>戶政業務申辦需知</a></li>
+                                    <li><a href='#'>國籍申辦需知</a></li>
+                                    <li><a href='#'>戶政各項業務申請書下載</a></li>
+                                </ul>
+                            </li>
+                            <li>主題資訊
+                                <ul>
+                                    <li><a href='#'>New eID資訊公開專區</a></li>
+                                    <li><a href='#'>人口政策與統計資料</a></li>
+                                    <li><a href='#'>國民身分證專區</a></li>
+                                    <li><a href='#'>出版品專區</a></li>
+                                    <li><a href='#'>委託研究專案區</a></li>
+                                    <li><a href='#'>取用中文姓名專區</a></li>
+                                    <li><a href='#'>新式戶口名簿資訊</a></li>
+                                    <li><a href='#'>縣市改制專區</a></li>
+                                    <li><a href='#'>歸化測試資訊</a></li>
+                                    <li><a href='#'>高級專業人才專區</a></li>
+                                    <li><a href='#'>一站式服務專區</a></li>
+                                </ul>
+                            </li>
+                            <li>公開資訊
+                                <ul>
+                                    <li><a href='#'>應用資料</a></li>
+                                    <li><a href='#'>常見問答</a></li>
+                                    <li><a href='#'>雙語詞彙</a></li>
+                                    <li><a href='#'>機關連線資訊</a></li>
+                                    <li><a href='#'>村里街門牌查詢</a></li>
+                                    <li><a href='#'>其他表單下載專區</a></li>
+                                    <li><a href='#'>計畫專案專區</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Slider main container -->
+        <div class="swiper swiper01">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src='image/swiper01.PNG' alt='錯誤'>
+                </div>
+                <div class="swiper-slide">
+                    <img src='image/swiper02.PNG' alt='錯誤'>
+                </div>
+                <div class="swiper-slide">
+                    <img src='image/swiper03.PNG' alt='錯誤'>
+                </div>
+                <div class="swiper-slide">
+                    <img src='image/swiper04.PNG' alt='錯誤'>
+                </div>
+            </div>
+            <div class="swiper-pagination swiper-pagination01"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev swiper-button-prev01"></div>
+            <div class="swiper-button-next swiper-button-next01"></div>
+
+
+        </div>
+
+        <main>
+            <article class='latestnews'>
+                <h1>最新消息</h1>
+                <div>
+                    <a href='#'><img class='announcement' src='image/announcement.PNG' alt='錯誤'></a>
+                    <div>
+                        <div>
+                            <img class='calender' src='image/calendar.PNG' alt='錯誤'>
+                            <p>110-12-01</p>
+                        </div>
+                        <p>
+                            <a class='content' href='#'>內政部110年「愛在有你的城市」單身聯誼活動即將登場！第4-7梯次訂於12月6日至12月15日受理報名，歡迎年滿20歲以上在臺設有戶籍之單身者踴躍報名參加～</a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href='#'><img class='announcement' src='image/announcement.PNG' alt='錯誤'></a>
+                    <div>
+                        <div>
+                            <img class='calender' src='image/calendar.PNG' alt='錯誤'>
+                            <p>110-12-01</p>
+                        </div>
+                        <p>
+                             <a class='content' href='#'>臺東縣臺東戶政事務所訂於110年12月11、12日(星期六、日)進行全所清消作業，是日暫停受理週六加值服務及假日預約結婚登記等各項便民服務。</a>
+                        </p>
+                    </div>
+                </div>
+				<div>
+					<p class='more'>more+</p>
+				</div>
+            </article>
+            <div>
+                <article>
+                    <h1>最新法規公布</h1>
+                    <div>
+                        <div>
+                            <img class='calender' src='image/calendar.PNG' alt='錯誤'>
+                            <p>110-09-07</p>
+                        </div>
+                        <p>
+                             <a class='content' href='#'>公告「國民身分證臨時證明書」格式，並自即日生效</a>
+                        </p>
+                    </div>
+                    <div>
+						<p class='more'>more+</p>
+					</div>
+                </article>
+                <article >
+                    <h1>新聞稿</h1>
+                    <div>
+                        <div>
+                            <img class='calender' src='image/calendar.PNG' alt='錯誤'>
+                            <p>110-11-02</p>
+                        </div>
+                        <p>
+                            <a class='content' href='#'>內政部「愛在有你的城市」單身聯誼活動 11／8日開始報名</a>
+                        </p>
+                    </div>
+                    <div>
+						<p class='more'>more+</p>
+					</div>
+                </article>
+            </div>
+            <article class='video'>
+				<iframe width="100%" height="80%"
+					src="https://www.youtube.com/embed/tgbNymZ7vqY">
+				</iframe>
+			</article>
+        </main>
+		<div class='Application'>
+			<div class='Applicationlist'>
+				<div class='Applicationlisttext' id='Application01'>國民身分證</div>
+				<div class='Applicationlisttext' id='Application02'>戶籍謄本</div>
+				<div class='Applicationlisttext' id='Application03'>國籍申辦</div>
+				<div class='Applicationlisttext' id='Application04'>其他申辦</div>
+			</div>
+			<div class='swiper001'>
+				<div class='swiper swiper02'>
+						<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">
+							<div class='swiperimg01'>
+								<img  src='image/swiperimg1-1.PNG' alt='錯誤'>
+
+							</div>
+							<div class='swipertext01'>國民身分證掛失<br>(自然人憑證)</div>
+						</div>
+						<div class="swiper-slide">
+							<div class='swiperimg02'>
+								<img  src='image/swiperimg1-2.PNG' alt='錯誤'>
+
+							</div>
+							<div class='swipertext02'>國民身分證掛失<br>(免自然人憑證)</div>
+						</div>
+						<div class="swiper-slide">
+							<div class='swiperimg03'>
+								<img  src='image/swiperimg1-3.PNG' alt='錯誤'>
+
+							</div>
+							<div class='swipertext03'>國民身分證領補換<br>資料查詢作業</div>
+						</div>
+						<div class="swiper-slide">
+							<div class='swiperimg04'>
+								<img  src='image/swiperimg1-4.PNG' alt='錯誤'>
+
+							</div>
+							<div class='swipertext04'>國民身分證<br>影像上傳</div>
+						</div>
+						
+					</div>
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev swiper-button-prev02"></div>
+					<div class="swiper-button-next swiper-button-next02"></div>
+				</div>
+			</div>
+		</div>
+		<div class='commonquery'>
+			<div class='commonqueryhead'>
+				<img src='image/commonquery.PNG' alt='錯誤'>
+				<p>常用查詢</p>
+			</div>
+			<div class='commonquerycontent'>
+				<a href='#'>
+				<div class='commonquerybox'>
+					<img src='image/commonqueryimg01.PNG' alt='錯誤'>
+					<div class='commonquerytext'>戶政機關通訊錄</div>
+				</div>
+				</a>
+				<a href='#'>
+				<div class='commonquerybox'>
+					<img src='image/commonqueryimg02.PNG' alt='錯誤'>
+					<div class='commonquerytext'>戶政業務申辦須知</div>
+				</div>
+				</a>
+				<a href='#'>
+				<div class='commonquerybox'>
+					<img src='image/commonqueryimg03.PNG' alt='錯誤'>
+					<div class='commonquerytext'>國籍申辦須知</div>
+				</div>
+				</a>
+				<a href='#'>
+				<div class='commonquerybox'>
+					<img src='image/commonqueryimg04.PNG' alt='錯誤'>
+					<div class='commonquerytext'>村里街路門牌</div>
+				</div>
+				</a>
+				<a href='#'>
+				<div class='commonquerybox'>
+					<img src='image/commonqueryimg05.PNG' alt='錯誤'>
+					<div class='commonquerytext'>戶政法規與<br>法規解釋函令</div>
+				</div>
+				</a>
+				<a href='#'>
+				<div class='commonquerybox'>
+					<img src='image/commonqueryimg06.PNG' alt='錯誤'>
+					<div class='commonquerytext'>網路申辦<br>歷史紀錄查詢</div>
+				</div>
+				</a>
+			</div>
+		</div>
+		<div class='Populartheme'>
+			<div class='Popularthemehead'>
+				<img src='image/Populartheme.PNG' alt='錯誤'>
+				<p>熱門主題專區</p>
+			</div>
+			<div class='Popularthemecontent'>
+				<a href='#'>
+					<img src='image/Popularthemeimg01.PNG' alt='錯誤'>
+				</a>
+				<a href='#'>
+					<img src='image/Popularthemeimg02.PNG' alt='錯誤'>
+				</a>
+				<a href='#'>
+					<img src='image/Popularthemeimg03.PNG' alt='錯誤'>
+				</a>
+				<a href='#'>
+					<img src='image/Popularthemeimg04.PNG' alt='錯誤'>
+				</a>
+				<a href='#'>
+					<img src='image/Popularthemeimg05.PNG' alt='錯誤'>
+				</a>
+				<a href='#'>
+					<img src='image/Popularthemeimg06.PNG' alt='錯誤'>
+				</a>			
+			</div>
+		</div>
+		<div class="swiper swiper03">
+            <!-- Additional required wrapper -->
+				<div class="swiper-wrapper swiperwrapper03">
+                <!-- Slides -->
+					<div class="swiper-slide swiper-slide03">
+						<img src='image/swiper03-1.PNG' alt='錯誤'>
+					</div>
+					<div class="swiper-slide swiper-slide03">
+						<img src='image/swiper03-2.PNG' alt='錯誤'>
+					</div>
+					<div class="swiper-slide swiper-slide03">
+						<img src='image/swiper03-3.PNG' alt='錯誤'>
+					</div>
+					<div class="swiper-slide swiper-slide03">
+						<img src='image/swiper03-4.PNG' alt='錯誤'>
+					</div>
+					<div class="swiper-slide swiper-slide03">
+						<img src='image/swiper03-5.PNG' alt='錯誤'>
+					</div>
+					<div class="swiper-slide swiper-slide03">
+						<img src='image/swiper03-6.PNG' alt='錯誤'>
+					</div>
+					<div class="swiper-slide swiper-slide03">
+						<img src='image/swiper03-7.PNG' alt='錯誤'>
+					</div>
+					<div class="swiper-slide swiper-slide03">
+						<img src='image/swiper03-8.PNG' alt='錯誤'>
+					</div>
+					<div class="swiper-slide swiper-slide03">
+						<img src='image/swiper03-9.PNG' alt='錯誤'>
+					</div>	
+				</div>
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev swiper-button-prev03"></div>
+				<div class="swiper-button-next swiper-button-next03"></div>
+		</div>
+        <div>
+                <div class='tounfold'>
+                    <img  src='image/001.PNG' class='a001' alt='錯誤'>
+                    <p class='togglep'>點我展開</p>
+                </div>
+            <div class='bigglist'>
+                <div class='biglist'>
+                    <ul class='list01'>
+                        <li>本司簡介</li>
+                        <li>戶政沿革史</li>
+                        <li>戶政組織</li>
+                        <li>業務職掌</li>
+                        <li>組織學習</li>
+                        <li>辦公室位置</li>
+                        <li>戶政機關通訊錄</li>
+                        <li>戶政機關線上通訊服務</li>
+                        <li>司長信箱</li>
+                        <li>司長信箱處理查詢</li>
+                        <li>本部徵才資訊</li>
+                    </ul>
+                    <ul class='list01'>
+                        <li>新聞與公告</li>
+                        <li>最新消息</li>
+                        <li>新聞稿</li>
+                        <li>最新法規公布</li>
+                        <li>影音宣導</li>
+                        <li>本部重大政策</li>
+                        <li>問卷調查</li>
+                    </ul>
+                    <ul class='list01'>
+                        <li>網路申辦服務</li>
+                        <li>戶政網路申辦服務作業說明</li>
+                        <li>國民身分證</li>
+                        <li>戶籍謄本</li>
+                        <li>國籍申辦</li>
+                        <li>其他申辦</li>
+                        <li>線上申辦戶籍登記</li>
+                        <li>戶役政管家APP服務</li>
+                    </ul>
+                    <ul class='list01'>
+                        <li>法令申辦與需知</li>
+                        <li>戶政法規</li>
+                        <li>戶政法規與法規解釋函令</li>
+                        <li>戶政業務申辦須知</li>
+                        <li>國籍申辦須知</li>
+                        <li>戶政各項業務申請書下載</li>
+                    </ul>
+                    <ul class='list01'>
+                        <li>主題資訊</li>
+                        <li>New eID資訊公開專區</li>
+                        <li>人口政策及統計資料</li>
+                        <li>國民身分證專區</li>
+                        <li>出版品專區</li>
+                        <li>委託研究專案區</li>
+                        <li>取用中文姓名專區</li>
+                        <li>新式戶口名簿專區</li>
+                        <li>縣市改制專區</li>
+                        <li>歸化測試資訊專區</li>
+                        <li>高級專業人才專區</li>
+                        <li>一站式服務專區</li>
+                    </ul>
+                    <ul class='list01'>
+                        <li>公開資訊</li>
+                        <li>應用資料</li>
+                        <li>常見問答</li>
+                        <li>雙語詞彙</li>
+                        <li>機關連線資訊</li>
+                        <li>村里街路門牌查詢</li>
+                        <li>其他表單下載專區</li>
+                        <li>專案計畫專區</li>
+                        <li>政策宣導相關廣告執行情形</li>
+                    </ul>
+            </div>
+            
+        </div>
+        <footer>
+            <ul class='link'>
+                <li>回首頁</li>
+                <li>網站資訊安全政策</li>
+                <li>網站隱私權保護政策</li>
+                <li>政府網站資料開放宣告</li>
+                <li>內政部首頁</li>
+            </ul>
+            <p>內政部戶政司全球資訊網 地址：(10055)臺北市中正區徐州路五號 總機：1996 內政服務熱線：(02)8195-8151<br>
+                Copyright © Dept. of Household Registration, M.O.I. 內政部戶政司<br>
+                本網站相容於IE 11、Edge、Firefox v54、Google Chrome v49及Safari 10.1以上之瀏覽器</p>
+        </footer>
+
+
+	</div>
+		
+
+
+    </div>
+    <script src="js/css.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+	<script> 
+		$(document).ready(function(){
+			$(".swiperimg>img:nth-child(1)").addClass("inline01");
+			$(".Applicationlist>div").click(function(){
+				$(".Applicationlisttext").removeClass("cover");
+				$(this).addClass("cover");
+				var C =$(this).attr("ID");
+				switch(C){
+					case "Application01":
+						$(".swiperimg01>img").attr("src","image/swiperimg1-1.PNG");
+						$(".swiperimg02>img").attr("src","image/swiperimg1-2.PNG");
+						$(".swiperimg03>img").attr("src","image/swiperimg1-3.PNG");
+						$(".swiperimg04>img").attr("src","image/swiperimg1-4.PNG");
+						$(".swipertext01").html('國民身分證掛失<br>(自然人憑證)');
+						$(".swipertext02").html('國民身分證掛失<br>(免自然人憑證)');
+						$(".swipertext03").html('國民身分證領補換<br>資料查詢作業');
+						$(".swipertext04").html('國民身分證<br>影像上傳');
+						break;
+					case 'Application02':
+						$('.swiperimg01>img').attr("src","image/swiperimg2-1.PNG");
+						$(".swiperimg02>img").attr("src","image/swiperimg2-2.PNG");
+						$(".swiperimg03>img").attr("src","image/swiperimg2-3.PNG");
+						$(".swiperimg04>img").attr("src","image/swiperimg2-4.PNG");
+						$(".swipertext01").html('紙本戶籍謄本<br>申辦');
+						$(".swipertext02").html('繼承案件<br>謄本申請');
+						$(".swipertext03").html('電子戶籍謄本<br>申辦');
+						$(".swipertext04").html('紙本戶籍謄本<br>申辦');
+						break;
+					case 'Application03':		
+						$(".swiperimg01>img").attr("src","image/swiperimg3-1.PNG");
+						$(".swiperimg02>img").attr("src","image/swiperimg3-2.PNG");
+						$(".swiperimg03>img").attr("src","image/swiperimg3-3.PNG");
+						$(".swiperimg04>img").attr("src","image/swiperimg3-4.PNG");
+						$(".swipertext01").html('國人<br>申請國籍證明');
+						$(".swipertext02").html('國籍案件<br>進度查詢');
+						$(".swipertext03").html('國籍許可證書<br>(含國籍證明)查詢');
+						$(".swipertext04").html('外籍人士上課時數<br>及歸化測試查詢');
+						break;
+					case 'Application04':
+						$(".swiperimg01>img").attr("src","image/swiperimg4-2.PNG");
+						$(".swiperimg02>img").attr("src","image/swiperimg4-1.PNG");
+						$(".swiperimg03>img").attr("src","image/swiperimg4-3.PNG");
+						$(".swiperimg04>img").attr("src","image/swiperimg4-4.PNG");
+						$(".swipertext01").html('網路申辦<br>歷史紀錄查詢');
+						$(".swipertext02").html('戶籍資料異動<br>跨機關通報服務');
+						$(".swipertext03").html('網路預約<br>戶籍登記服務');
+						$(".swipertext04").html('指定送達<br>地址申請');
+						break;
+				}
+
+			})
+            $(".tounfold").click(function(){
+                $('.bigglist').slideToggle(200);
+                $('.a001').toggleClass("a001hover");
+            })
+		})
+		
+	</script>
+</body>
+
+</html>

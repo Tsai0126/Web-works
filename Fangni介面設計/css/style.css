@@ -1,0 +1,418 @@
+            * {
+                margin: 0px;
+                padding: 0px;
+                font-family: Microsoft JhengHei, Arial;
+            }
+            
+            .wapper {
+                width: 100%;
+                height: 100%;
+            }
+            /*--導覽列起始點--*/
+            
+            header {
+                width: 100%;
+                background-color: rgb(255, 182, 193);
+            }
+            
+            header nav {
+                display: flex;
+                justify-content: center;
+            }
+            
+            header nav ul {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                border-bottom: 1px solid;
+                width: 92%;
+                margin-bottom: 60px;
+            }
+            
+            header nav ul li {
+                list-style: none;
+                font-size: 18px;
+                font-weight: bold;
+                padding: 5px 30px 0px 0px;
+            }
+            /*--導覽列結束點--*/
+            /*--重點區起始點--*/
+            
+            .focus {
+                background-color: rgb(204, 204, 204);
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 10%;
+            }
+            
+            .focus ul {
+                display: flex;
+                justify-content: space-around;
+                align-content: space-around;
+                width: 90%
+            }
+            
+            .focus ul li {
+                list-style: none;
+            }
+            
+            .biglogo {
+                border-radius: 50px;
+                margin-top: -12%;
+                height: 800px;
+                width: 90%;
+            }
+            
+            .focus ul li img {
+                height: 80px;
+                width: 80px;
+            }
+            
+            .title01 {
+                font-size: 50px;
+                font-weight: bolder;
+                text-align: center;
+                color: rgb(255, 150, 150);
+                padding: 20px 0px;
+            }
+            
+            .Advantage {
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-bottom: 30px;
+            }
+            
+            .Advantage li {
+                width: 30%;
+                text-align: center;
+                background-color: rgb(192, 192, 192);
+                margin: 10px 50px;
+                height: 60px;
+                border-radius: 30px;
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+            }
+            
+            .title02 {
+                background-color: rgb(255, 150, 150);
+                text-align: center;
+                line-height: 35px;
+                height: 35px;
+                margin: 0 auto;
+                width: 10%;
+                border-radius: 10px;
+                color: rgb(255, 255, 255);
+            }
+            /*--重點區結束點--*/
+            /*--近期活動介紹起始點--*/
+            
+            section {
+                display: flex;
+                justify-content: space-between;
+                background-color: rgb(255, 190, 190);
+                margin-top: 50px;
+                width: 100%
+            }
+            
+            section img {
+                margin: -3% 0 -8% 80px;
+            }
+            
+            section div {
+                width: 73%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+            
+            .sectionp01 {
+                font-size: 35px;
+                color: rgb(0, 128, 255);
+                text-align: left;
+                padding-left: 50px;
+                padding-top: 30px;
+            }
+            
+            .sectionp02 {
+                font-size: 40px;
+                color: rgb(0, 128, 255);
+                text-align: center;
+                padding-top: 30px;
+            }
+            
+            .sectionp03 {
+                font-size: 30px;
+                color: rgb(0, 128, 255);
+                text-align: right;
+                padding-top: 30px;
+            }
+            
+            .title03 {
+                text-align: right;
+                padding: 60px 50px 0 0;
+                font-size: 40px;
+                color: rgb(0, 100, 255);
+                font-weight: bolder;
+            }
+            /*--近期活動介紹起始點--*/
+            /*--影片區--*/
+            
+            .swiper {
+                width: 80%;
+            }
+            
+            .swiper-wrapper {
+                display: flex;
+            }
+            
+            .swiper-slide {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            
+            .swiper img {
+                width: 100%;
+            }
+            
+            .swiper h2 {
+                width: 100%;
+                font-size: 20px;
+            }
+            
+            .swiper span {
+                display: inline-block;
+                text-align: left;
+                font-size: 14px;
+                width: 45%;
+            }
+            
+            .swiper span:last-child {
+                display: inline-block;
+                text-align: right;
+                margin-left: 20px;
+            }
+            /*--影片區--*/
+            /*--影視製作團隊起始點--*/
+            
+            .title04 {
+                width: 100%;
+                text-align: left;
+                padding: 60px 0 0 50px;
+                font-size: 40px;
+                color: rgb(0, 100, 255);
+                font-weight: bolder;
+                margin-bottom: 50px;
+            }
+            
+            .videoteam {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            .videoteambox {
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                margin-top: 50px;
+            }
+            
+            .videoteambox img {
+                height: 100%;
+                width: 50%;
+                border-radius: 20px;
+            }
+            
+            .videoteamboxtext {
+                list-style: none;
+                margin-left: 20px;
+                width: 30%;
+                font-size: 26px;
+            }
+            
+            .videoteamboxtext li:nth-child(1) {
+                font-size: 30px;
+                font-weight: bolder;
+            }
+            
+            .videoteamboxtext li:nth-child(2) {
+                font-size: 30px;
+                color: rgb(255, 100, 100);
+                font-weight: bolder;
+            }
+            
+            .videoteamboxtext li:nth-child(3) {
+                height: 100%;
+            }
+            /*--影視製作團隊結束點--*/
+            /*--企劃行銷團隊起始點--*/
+            
+            .marketingteam {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .title05 {
+                width: 100%;
+                text-align: right;
+                padding: 60px 50px 0 0;
+                font-size: 40px;
+                color: rgb(0, 100, 255);
+                font-weight: bolder;
+                margin-bottom: 50px;
+            }
+            
+            .marketingteamperson {
+                display: flex;
+                flex-direction: column;
+                margin: 30px;
+            }
+            
+            .marketingteamperson img {
+                height: 100px;
+                width: 100px;
+                border-radius: 50px;
+                margin-bottom: 10px;
+            }
+            
+            .marketingteamperson span {
+                text-align: center;
+                font-weight: bolder;
+            }
+            
+            .marketingteamperson span:last-child {
+                color: rgb(255, 100, 100);
+            }
+            /*--企劃行銷團隊結束點--*/
+            /*--頁尾導覽列起始點--*/
+            
+            .bottom {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                background-color: rgb(255, 182, 193);
+                color: rgb(255, 255, 255);
+                font-size: 16px;
+            }
+            
+            .bottom span {
+                padding-left: 30px;
+            }
+            
+            .bottomcontent {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+            }
+            
+            .bottomcontentimg img {
+                height: 40px;
+                width: 40px;
+                padding-left: 10px;
+            }
+            /*--頁尾導覽列結束點--*/
+            /*--RWD--*/
+            
+            @media screen and (max-width:960px) and (min-width:721px) {
+                /*--導覽列--*/
+                /*--重點區--*/
+                .biglogo {
+                    height: 400px;
+                }
+                .title01 {
+                    font-size: 30px;
+                }
+                .Advantage li {
+                    width: 80%;
+                    font-size: 12px;
+                }
+                .title02 {
+                    width: 18%;
+                }
+                /*--近期活動介紹--*/
+                .sectionp01 {
+                    font-size: 25px;
+                }
+                .sectionp02 {
+                    font-size: 30px;
+                }
+                .sectionp03 {
+                    font-size: 20px;
+                }
+                /*--影片區--*/
+                /*--影視製作團隊--*/
+                .videoteambox {
+                    width: 100%;
+                }
+                /*--企劃行銷團隊--*/
+                /*--頁尾導覽列--*/
+            }
+            
+            @media screen and (max-width:720px) {
+                /*--導覽列--*/
+                header nav ul li {
+                    padding: 5px 20px 0px 0px;
+                }
+                .list li {
+                    font-size: 10px;
+                }
+                /*--重點區--*/
+                .biglogo {
+                    height: 300px;
+                }
+                .title01 {
+                    font-size: 30px;
+                }
+                .Advantage li {
+                    width: 80%;
+                    font-size: 12px;
+                }
+                .title02 {
+                    width: 18%;
+                }
+                /*--近期活動介紹--*/
+                section div {
+                    width: 90%;
+                }
+                section img {
+                    display: none;
+                }
+                .sectionp01 {
+                    font-size: 20px;
+                }
+                .sectionp02 {
+                    font-size: 25px;
+                }
+                .sectionp03 {
+                    font-size: 15px;
+                }
+                /*--影片區--*/
+                /*--影視製作團隊--*/
+                .videoteambox {
+                    width: 100%;
+                }
+                .videoteamboxtext {
+                    font-size: 16px;
+                }
+                /*--企劃行銷團隊--*/
+                /*--頁尾導覽列--*/
+                .bottomcontent {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .bottom span {
+                    padding-left: 0px;
+                }
+                .bottomcontent span {
+                    width: 100%;
+                }
+            }

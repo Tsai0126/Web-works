@@ -1,0 +1,155 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+.wapper{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(50,50,50);
+}
+
+content{
+    border:1px solid;
+
+    border-color:rgb(150,150,150);
+    background-color:rgb(39,34,34);
+    margin-top:50px;
+    margin-bottom:50px;
+    height:990px;
+    width:600px;
+}
+
+.header01{
+    font-size:25px;
+    color:#ffffff;
+    padding-left:25px;
+    padding-top:15px;
+    height:45px;
+    border-bottom:1px dashed;
+}
+
+li{
+    font-size:15px;
+    padding-top:25px;
+    padding-bottom:5px;
+    padding-left:25px;
+    list-style:none;
+    color:#ffffff;
+}
+select{
+    color:black;
+    margin-left:25px;
+    margin-right:25px;
+    padding:5px;
+    background-color: rgb(255,255,255);
+    width:550px;
+    height:30px;
+}
+
+.input01{
+    color:black;
+    margin-left:25px;
+    margin-right:25px;
+    padding:5px;
+    background-color: rgb(255,255,255);
+    width:536px;
+    height:20px;
+}
+
+textarea{
+    color:black;
+    margin-left:25px;
+    margin-right:25px;
+    padding:5px;
+    background-color: rgb(255,255,255);
+    width:536px;
+    height:130px;
+}
+
+.upload{
+    display:flex;
+    align-items: center;
+    font-size:15px;
+    margin-left:25px;
+    margin-right:25px;
+    padding-top:5px;
+    background-color: rgb(50,50,50);
+    width:548px;
+    height:25px;
+    margin-top:6px;
+    color:rgb(255,255,255);
+}
+.text01{
+    margin-left:10px;
+}
+.input02{
+    margin-left:20px;
+    font-size: 10px;
+}
+.red01{
+    color:salmon;
+    margin-top:20px;
+    margin-left:30px;
+    font-size:12px;
+    border-bottom:1px solid;
+    padding-bottom:10px;
+    width:540px;
+}
+
+.red02{
+    margin-top:20px;
+    margin-right:10px;
+    margin-left:10px;
+    font-size:12px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(255,255,255);
+}
+
+.aaa{
+    color:red;
+}
+
+.btn{
+    display:flex;
+    justify-content: center;
+}
+.btn01{
+    height:30px;
+    width:120px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right:5px;
+    background-color:rgb(50,50,50);
+    color:red;
+    border:1px solid;
+    border-color:red;
+}
+.btn01:hover{
+    background-color: salmon;
+    color:seashell;
+}
+
+.aaa:hover{
+    color:seashell;
+}
+
+footer{
+    background-color: rgb(39,34,34);
+    border-top:1px solid;
+    width:605px;
+    height:20px;
+    padding-top:3px;
+    margin-bottom:20px;
+    margin-top:-30px;
+    text-align: center;
+    font-size:10px;
+    color:seashell;
+}

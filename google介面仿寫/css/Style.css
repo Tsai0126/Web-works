@@ -1,0 +1,128 @@
+.title01{
+    background-color:#ffffff;
+    height:50px;
+    font-size:16px;
+    display:flex;
+
+}
+.a001{
+    width:120px;
+    text-align: center;
+    margin-top:15px;
+}
+.a002{
+    width:120px;
+    text-align: center;
+    margin-top:15px;
+}
+.a003{
+    position:fixed;
+    right:165px;
+    margin-top:19px;
+    text-align:center;
+}
+.a004{
+    position:fixed;
+    right:120px;
+    margin-top:19px;
+    text-align:center;
+
+}
+.a005{
+    position:fixed;
+    right:50px;
+    width:40px;
+    margin-top:17px;
+}
+.a006{
+    position:fixed;
+    right:0;
+    height:44px;
+    width:50px;
+    margin:6px;
+}
+
+.googlelogo{
+    text-align:center;
+    margin-top:65px;
+    height:120px;
+}
+
+.mid{
+
+    position:relative;
+    flex-direction:row;
+    margin-left:0px;
+    margin-top:20px;
+    left:30%;
+    width:40%;
+    text-align:center;
+}
+.text01{
+    border-radius: 1000px;
+    border:1px solid;
+    text-align:center;
+    height:40px;
+    width:600px;
+    font-size: 30px;
+}
+.mic{
+    position:absolute;
+    top:20%;
+    right:3%;
+}
+.sear{
+    position:absolute;
+    top:20%;
+    left:3%;
+}
+.btnn{
+    text-align:center;
+}
+.btn01{
+    border:0px;
+    margin-top:25px;
+    margin-right:5px;
+    width:100px;
+    height:35px;
+    
+}
+.btn02{
+    border:0px;
+    margin-top:25px;
+    margin-left:5px;
+    width:70px;
+    height:35px;
+    
+}
+.bottom01{
+    position:fixed;
+    bottom:0px;
+    width:100vw;
+    height:100px;
+    font-size: 15px;
+    background-color:rgb(240,240,240);
+}
+.bot01{
+    position: absolute;
+    width:100%;
+    padding-left:30px;
+    padding-bottom:15px;
+    top:20px;
+    border-bottom:1px solid;
+    border-color:grey;
+}
+.bot02L{
+    position: absolute;
+    top:70px;
+    left:30px;
+}
+.bot02R{
+    position: absolute;
+    top:70px;
+    right:30px;
+}
+.wapper{
+    width:100vw;
+    height:100vh;
+}
